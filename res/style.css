@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'baltica';
+  src: url('balticafont/Baltica.ttf') format('truetype');
+}
+
+input {
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar-track {
+  background-color: pink;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+body::-ms-scrollbar {
+  width: 0.7em;
+}
+
+body::-ms-scrollbar-track {
+  background-color: pink;
+}
+
+body::-ms-scrollbar-thumb {
+  background-color: #555;
+}
+
+body::-ms-scrollbar-thumb:hover {
+  background-color: #cb4040;
+}
